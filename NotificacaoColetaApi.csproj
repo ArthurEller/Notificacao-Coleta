@@ -37,18 +37,22 @@
   <ItemGroup>
     <None Include=".github\workflows\ci-cd-pipeline.yml" />
     <None Remove="NotificacaoColetaApiTests\**" />
+    <None Remove=".github\**" />
   </ItemGroup>
 
   <ItemGroup>
     <Compile Remove="NotificacaoColetaApiTests\**" />
+    <Compile Remove=".github\**" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Remove="NotificacaoColetaApiTests\**" />
+    <EmbeddedResource Remove=".github\**" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Remove="NotificacaoColetaApiTests\**" />
+    <Content Remove=".github\**" />
   </ItemGroup>
 
   <ItemGroup>
