@@ -10,12 +10,3 @@ services:
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
       - ConnectionStrings__DatabaseConnection=Data Source=(DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = oracle.fiap.com.br)(PORT = 1521)))(CONNECT_DATA = (SID = orcl)));Persist Security Info=True;User ID=rm98151;Password=241085;Pooling=True;Connection Timeout=60;
-    depends_on:
-      - oracle-db
-
-  oracle-db:
-    image: oracleinanutshell/oracle-xe-11g
-    environment:
-      ORACLE_PWD: pass
-    ports:
-      - "1521:1521"
