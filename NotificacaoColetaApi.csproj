@@ -38,21 +38,25 @@
     <None Include=".github\workflows\ci-cd-pipeline.yml" />
     <None Remove="NotificacaoColetaApiTests\**" />
     <None Remove=".github\**" />
+    <None Remove="fiap-notific-coleta\**" />
   </ItemGroup>
 
   <ItemGroup>
     <Compile Remove="NotificacaoColetaApiTests\**" />
     <Compile Remove=".github\**" />
+    <Compile Remove="fiap-notific-coleta\**" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Remove="NotificacaoColetaApiTests\**" />
     <EmbeddedResource Remove=".github\**" />
+    <EmbeddedResource Remove="fiap-notific-coleta\**" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Remove="NotificacaoColetaApiTests\**" />
     <Content Remove=".github\**" />
+    <Content Remove="fiap-notific-coleta\**" />
   </ItemGroup>
 
   <ItemGroup>

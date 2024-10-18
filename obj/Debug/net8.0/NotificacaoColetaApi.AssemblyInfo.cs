@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NotificacaoColetaApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e52132520694ee3c0fbf635c681aa55afeb52cc7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbaf10ccb6eb1790635898973a57843c4186a8f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("NotificacaoColetaApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NotificacaoColetaApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
