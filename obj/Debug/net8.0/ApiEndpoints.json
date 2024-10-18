@@ -1,0 +1,75 @@
+[
+  {
+    "ContainingType": "NotificacaoColetaApi.Controllers.AuthController",
+    "Method": "GetToken",
+    "RelativePath": "api/Authorization",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NotificacaoColetaApi.Controllers.ColetaController",
+    "Method": "AtualizarColeta",
+    "RelativePath": "api/Coleta/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "coletaViewModel",
+        "Type": "NotificacaoColetaApi.ViewModel.ColetaViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NotificacaoColetaApi.Controllers.ColetaController",
+    "Method": "CriarColeta",
+    "RelativePath": "api/Coleta/criar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "coletaViewModel",
+        "Type": "NotificacaoColetaApi.ViewModel.ColetaViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NotificacaoColetaApi.Controllers.NotificacaoController",
+    "Method": "CriarNotificacao",
+    "RelativePath": "api/Notificacao/criar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notificacaoViewModel",
+        "Type": "NotificacaoColetaApi.ViewModel.NotificacaoViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NotificacaoColetaApi.Controllers.NotificacaoController",
+    "Method": "HealthCheck",
+    "RelativePath": "api/Notificacao/healthcheck",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Ur3iidKIwx3ABKqYPxuds6rGF5xi5RD9OepWA3F06sk=",
+  "Source": "NotificacaoColetaApi",
+  "BasePath": "_content/NotificacaoColetaApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  notificacaocoletaapi:
+    image: notificacaocoletaapi
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DefaultConnection=Server=oracle-db;Database=your_db;User Id=user;Password=pass;
+    depends_on:
+      - oracle-db
+
+  oracle-db:
+    image: oracleinanutshell/oracle-xe-11g
+    environment:
+      ORACLE_PWD: pass
+    ports:
+      - "1521:1521"
