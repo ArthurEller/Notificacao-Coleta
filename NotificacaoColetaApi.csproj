@@ -39,6 +39,7 @@
     <None Remove="NotificacaoColetaApiTests\**" />
     <None Remove=".github\**" />
     <None Remove="fiap-notific-coleta\**" />
+    <None Remove="README.MD" />
   </ItemGroup>
 
   <ItemGroup>
