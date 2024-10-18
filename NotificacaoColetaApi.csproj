@@ -36,19 +36,36 @@
 
   <ItemGroup>
     <None Include=".github\workflows\ci-cd-pipeline.yml" />
-    <None Remove="fiap-notific-coleta\**" />
+    <None Remove="NotificacaoColetaApiTests\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Remove="fiap-notific-coleta\**" />
+    <Compile Remove="NotificacaoColetaApiTests\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Remove="fiap-notific-coleta\**" />
+    <EmbeddedResource Remove="NotificacaoColetaApiTests\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Remove="fiap-notific-coleta\**" />
+    <Content Remove="NotificacaoColetaApiTests\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="NotificacaoColetaApiTests\bin\Debug\net8.0\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="NotificacaoColetaApiTests\bin\Debug\net8.0\appsettings.json" />
+    <_ContentIncludedByDefault Remove="NotificacaoColetaApiTests\bin\Debug\net8.0\fine-code-coverage\build-output\appsettings.Development.json" />
+    <_ContentIncludedByDefault Remove="NotificacaoColetaApiTests\bin\Debug\net8.0\fine-code-coverage\build-output\appsettings.json" />
+    <_ContentIncludedByDefault Remove="NotificacaoColetaApiTests\bin\Debug\net8.0\fine-code-coverage\build-output\NotificacaoColetaApi.deps.json" />
+    <_ContentIncludedByDefault Remove="NotificacaoColetaApiTests\bin\Debug\net8.0\fine-code-coverage\build-output\NotificacaoColetaApi.runtimeconfig.json" />
+    <_ContentIncludedByDefault Remove="NotificacaoColetaApiTests\bin\Debug\net8.0\fine-code-coverage\build-output\NotificacaoColetaApiTests.deps.json" />
+    <_ContentIncludedByDefault Remove="NotificacaoColetaApiTests\bin\Debug\net8.0\fine-code-coverage\build-output\NotificacaoColetaApiTests.runtimeconfig.json" />
+    <_ContentIncludedByDefault Remove="NotificacaoColetaApiTests\bin\Debug\net8.0\NotificacaoColetaApi.deps.json" />
+    <_ContentIncludedByDefault Remove="NotificacaoColetaApiTests\bin\Debug\net8.0\NotificacaoColetaApi.runtimeconfig.json" />
+    <_ContentIncludedByDefault Remove="NotificacaoColetaApiTests\bin\Debug\net8.0\NotificacaoColetaApiTests.deps.json" />
+    <_ContentIncludedByDefault Remove="NotificacaoColetaApiTests\bin\Debug\net8.0\NotificacaoColetaApiTests.runtimeconfig.json" />
+    <_ContentIncludedByDefault Remove="NotificacaoColetaApiTests\obj\NotificacaoColetaApiTests.csproj.nuget.dgspec.json" />
+    <_ContentIncludedByDefault Remove="NotificacaoColetaApiTests\obj\project.assets.json" />
   </ItemGroup>
 
 </Project>
