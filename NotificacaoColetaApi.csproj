@@ -36,6 +36,19 @@
 
   <ItemGroup>
     <None Include=".github\workflows\ci-cd-pipeline.yml" />
+    <None Remove="fiap-notific-coleta\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="fiap-notific-coleta\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="fiap-notific-coleta\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="fiap-notific-coleta\**" />
   </ItemGroup>
 
 </Project>

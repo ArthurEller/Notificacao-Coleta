@@ -9,7 +9,7 @@ services:
       - "8080:80"
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - ConnectionStrings__DefaultConnection=Server=oracle-db;Database=your_db;User Id=user;Password=pass;
+      - ConnectionStrings__DatabaseConnection=Data Source=(DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = oracle.fiap.com.br)(PORT = 1521)))(CONNECT_DATA = (SID = orcl)));Persist Security Info=True;User ID=rm98151;Password=241085;Pooling=True;Connection Timeout=60;
     depends_on:
       - oracle-db
 
