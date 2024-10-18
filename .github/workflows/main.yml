@@ -2,7 +2,8 @@ on:
   push:
     branches:
       - "feature/main"
-
+  workflow_dispatch:
+  
 env:
   IMAGE_NAME: notific-coleta-api
   AZURE_WEBAPP_NAME: notific-coleta-api
